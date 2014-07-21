@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Diversity at Rabid"
+date:   2014-07-18 12:00:58
+---
+
+# Kete
+
+Recently we have been working on a proposal for renewing the participation-driven online historical archive service, Kete. Libraries, museums and other organisations across New Zealand use Kete to collaboratively archive digital artifacts. 
+
+I came across Fiona Gunter-Firth’s Cuba Street Project, which is being run as part of the New Zealand Fringe, while walking to work down Cuba Street in the morning, and it seemed to me like a fantastic example of the power of local history - a key value that Kete embodies. Checking out this great contextualisation of historical artifacts seemed to Josh, Breccan and I like a good enough excuse to escape the office and go for a walk. 
+
+The Cuba Street Project was started in 2011 after the Christchurch earthquake inspired the Wellington City Council to get very serious about earthquake standards, threatening many of the iconic buildings around Cuba Street. The area is rich with local heritage spanning back over a century. The project collates the stories of certain buildings and puts them in their physical context. 
+
+In the Cuba St area there are 13 installations, including slideshow displays on TV screens inside the windows of Farmers and Olive Café, a collection of photos in the shop display of Cosmic Corner/Amsterdam Café, and posters on various buildings telling historical stories. 
+
+The Wellington City Library is running a Kete called the Cuba Street Memories project[http://kete.wcl.govt.nz/], which collates and archives records of the area from citizens. To me these two projects show the value and power of sharing local history in context and the huge potential of private memories and collections in the documentation of public heritage. I’m really looking forward to seeing Kete develop into an accessible platform to obtain these historical artifacts from the public.

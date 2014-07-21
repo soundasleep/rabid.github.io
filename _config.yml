@@ -1,3 +1,4 @@
-name: Rabid Thinks
+name: Rabid Brains
 markdown: redcarpet
 pygments: true
+paginate: 5
