@@ -4,12 +4,6 @@
 /*
 /*****************************************************************************/
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html, body { height: 100%; }
 
 body {
@@ -19,11 +13,13 @@ body {
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+h1 { 
+  font-size: 1.5em;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h2 {
+  font-size: 1.5em;
+}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -77,6 +73,10 @@ a:visited { color: #a0a; }
   font-size: 80%;
 }
 
+.content {
+  margin-bottom: 2em;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -106,11 +106,6 @@ a:visited { color: #a0a; }
 .header a {
   font-weight: bold;
   text-decoration: none;
-}
-
-.title {
-  display: inline-block;
-  margin-bottom: 2em;
 }
 
 .title a {
