@@ -1,63 +1,3 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-html, body { height: 100%; }
-
-body {
-  background-color: #FFF;
-  font: 13.34px 'Open Sans', sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
-h1 { 
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
-
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -77,9 +17,14 @@ a:visited { color: #a0a; }
   margin-bottom: 2em;
 }
 
+.post-details {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
 .header {
-  background-image: url(/corner.png);
-  background-repeat: no-repeat;
+/*  background-image: url(/corner.png);
+  background-repeat: no-repeat;*/
   padding-left: 120px;
   padding-top: 110px;
   height:100px;
@@ -88,20 +33,24 @@ a:visited { color: #a0a; }
   left: -20px;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
 .site {
   font-size: 115%;
-  background-color: #FAF6F2;
+  background: url('/paper.jpg');
+-webkit-border-top-left-radius: 40px;
+-webkit-border-bottom-left-radius: 40px;
+-moz-border-radius-topleft: 40px;
+-moz-border-radius-bottomleft: 40px;
+border-top-left-radius: 40px;
+border-bottom-left-radius: 40px;
   text-align: justify;
-  width: 42em;
-  margin: 0 auto 2em;
-  padding: 1em;
+  max-width: 960px;
+  margin: 2em 0 2em 1em;
+  padding: 5em;
   line-height: 1.5em;
+  -webkit-box-shadow: -2px 3px 15px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    -2px 3px 15px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         -2px 3px 15px 0px rgba(50, 50, 50, 0.5);
+border-right: 20px solid rgba(0, 0, 0, 0.05);
 }
 
 
