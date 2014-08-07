@@ -7,39 +7,51 @@ authors:
   jofo:
     name: "Josh Forde"
     image: "josh-sq.jpg"
+    twitter: "joshforde"
   breccan:
     name: "Breccan McLeod-Lundy"
     image: "breccan-sq.jpg"
+    twitter: "breccan"
   megan:
     name: "Megan Bowra-Dean"
     image: "megan-sq.jpg"
+    twitter: "megahbite"
   sandra:
     name: "Sandra Clark"
     image: "sandra-sq.jpg"
   pepper:
     name: "Pepper Curry"
     image: "pepper-sq.jpg"
+    twitter: "sempercapsicum"
   jonas:
     name: "Jonas Hermsmeier"
     image: "jonas-sq.jpg"
+    twitter: "jhermsmeier"
   eoin:
     name: "Eoin Kelly"
     image: "eoin-sq.jpg"
+    twitter: "eoinkelly"
   rose:
     name: "Rose Lu"
     image: "rose-sq.jpg"
+    twitter: "plainricedinner"
   merrin:
     name: "Merrin Macleod"
     image: "merrin-sq.jpg"
+    twitter: "merxplat"
   josh:
     name: "Josh McArthur"
     image: "josh-mc-sq.jpg"
+    twitter: "sudojosh"
   rob:
     name: "Rob Ramsay"
     image: "rob-sq.jpg"
+    twitter: "robramsaynz"
   brenda:
     name: "Brenda Wallace"
     image: "brenda-sq.jpg"
+    twitter: "br3nda"
   jevon:
     name: "Jevon Wright"
     image: "jevon-sq.jpg"
+    twitter: "soundasleep"
