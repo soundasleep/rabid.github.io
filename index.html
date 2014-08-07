@@ -9,7 +9,8 @@ title: Rabid Brains
   <p class="post-details">
     {% if post.author %}
       By
-      <span class="author">{{ post.author }}</span>
+      {% assign author = site.authors[post.author] %}
+      <span class="author">{{ author.name }}</span>
       on
     {% endif %}
     <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>

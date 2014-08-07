@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/from-rabid-site.css">
-        <link rel="stylesheet" href="/css/blog-specific.css">
-
-    </head>
-    <body>
-
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300italic,400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/from-rabid-site.css">
+    <link rel="stylesheet" href="/css/blog-specific.css">
+  </head>
 <body>
   <div class='g-container white-bg shadowed'>
     <div class='g-line'>
@@ -53,6 +49,7 @@
     <div class="g-line">
       <div class="g-1of1 g-all-space">
         <h1><a href="/">{{ site.name }}</a></h1>
+        <p class="subtitle">{{site.subtitle}}</p>
         {{ content }}
       </div>
     </div> 

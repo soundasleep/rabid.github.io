@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Kete"
+subtitle: "An adventure with things"
 date:   2014-07-18 12:00:58
-author: "Josh Forde"
+author: jofo
 ---
 
 Recently we have been working on a proposal for renewing the participation-driven online historical archive service, Kete. Libraries, museums and other organisations across New Zealand use Kete to collaboratively archive digital artifacts. 

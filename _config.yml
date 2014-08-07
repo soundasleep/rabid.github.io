@@ -1,4 +1,45 @@
 name: Rabid Brains
+subtitle: The Rabid Blog
 markdown: redcarpet
 pygments: true
 paginate: 5
+authors:
+  jofo:
+    name: "Josh Forde"
+    image: "josh-sq.jpg"
+  breccan:
+    name: "Breccan McLeod-Lundy"
+    image: "breccan-sq.jpg"
+  megan:
+    name: "Megan Bowra-Dean"
+    image: "megan-sq.jpg"
+  sandra:
+    name: "Sandra Clark"
+    image: "sandra-sq.jpg"
+  pepper:
+    name: "Pepper Curry"
+    image: "pepper-sq.jpg"
+  jonas:
+    name: "Jonas Hermsmeier"
+    image: "jonas-sq.jpg"
+  eoin:
+    name: "Eoin Kelly"
+    image: "eoin-sq.jpg"
+  rose:
+    name: "Rose Lu"
+    image: "rose-sq.jpg"
+  merrin:
+    name: "Merrin Macleod"
+    image: "merrin-sq.jpg"
+  josh:
+    name: "Josh McArthur"
+    image: "josh-mc-sq.jpg"
+  rob:
+    name: "Rob Ramsay"
+    image: "rob-sq.jpg"
+  brenda:
+    name: "Brenda Wallace"
+    image: "brenda-sq.jpg"
+  jevon:
+    name: "Jevon Wright"
+    image: "jevon-sq.jpg"
