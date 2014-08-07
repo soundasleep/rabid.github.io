@@ -6,39 +6,56 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/elements.css">
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/from-rabid-site.css">
+        <link rel="stylesheet" href="/css/blog-specific.css">
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <h2>It's a blog</h2>
+<body>
+  <div class='g-container white-bg shadowed'>
+    <div class='g-line'>
+      <div class='g-1of1 g-h-space'>
+        <header class='header'>
+          <div class='logo'>
+            <a href='/'>
+              <img class="image" src="/assets/rabid-logo@2x.png" />
+            </a>
           </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="http://www.rabid.co.nz">Rabid</a><br />
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://twitter.com/rabidtech">Tweets</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
+        </header>
+      </div>
+    </div>
+    <div class='g-line'>
+      <div class='g-1of1'>
+        <nav class='main-nav'>
+          <ul class='nav-list'>
+            <li class='nav-item'>
+              <a class='link' href='http://www.rabid.co.nz'>Home</a>
+            </li>
+            <li class='nav-item'>
+              <a class='link' href='http://www.rabid.co.nz/about-us'>About Us</a>
+            </li>
+            <li class='nav-item'>
+              <a class='link' href='http://www.rabid.co.nz/work'>Our Work</a>
+            </li>
+            <li class='nav-item'>
+              <a class='link' href='http://www.rabid.co.nz/contact-us'>Get in Touch</a>
+            </li>
+            <li class='nav-item'>
+              <a class='link' href='/'>Blog</a>
+            </li>
+          </ul>
+          <img class="nav-right" src="/assets/nav-right-desktop@2x.png" />
+        </nav>
+      </div>
+    </div>
+    <div class="g-line">
+      <div class="g-1of1">
+        <a href="/">{{ site.name }}</a>
+        {{ content }}
+      </div>
+    </div> 
+  </div>
+</body>
 </html>
