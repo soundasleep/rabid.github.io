@@ -7,3 +7,5 @@ author: "jonas"
 
 
 Ich liebe meinen Computer. Es ist sehr schön. Ich liebe auch Pflanzen.
+
+Ich hasse Ember.JS. Es ist ein Stück Scheiße.
