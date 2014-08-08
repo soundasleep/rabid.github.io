@@ -1,17 +1,42 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-{% if page.subtitle %}
-  <p class="subtitle">{{ page.subtitle }}</p>
-{% endif %}
-{% if page.author %}
-  {% assign author = site.authors[page.author] %}
-  <p class="author">{{ author.name }}</p>
-  <img src="{{ author.image | prepend:'/assets/profiles/' }}" class="profile-image">
-{% endif %}
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div class="cf">
+  <h2>{{ page.title }}</h2>
+  {% if page.subtitle %}
+    <p class="subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+  <div class="post-details cf">
+    {% if page.author %}
+      {% assign author = site.authors[page.author] %}
+      <img src="{{ author.image | prepend:'/assets/profiles/' }}" class="profile-image">
+      <p>
+        <span class="author">{{ author.name }}</span>
+      </p>
+    {% endif %}
+    <p class="date">{{ page.date | date: "%-d %B %Y" }}</p>
+  </div>
 
-<div class="post">
-{{ content }}
+
+  <div class="post">
+  {{ content }}
+  </div>
+</div>
+<hr>
+<div class="other-posts">
+  {% if page.previous %}
+    <a href="{{page.previous.url}}">
+      <img src="/assets/back.png" class="other-post-image">
+      {{ page.previous.title }}
+    </a>
+    {% if page.next %}
+    |
+    {% endif %}
+  {% endif %}
+  {% if page.next %}
+    <a href="{{page.next.url}}">
+      {{ page.next.title }}
+      <img src="/assets/forward.png" class="other-post-image">
+    </a>
+  {% endif %}
 </div>

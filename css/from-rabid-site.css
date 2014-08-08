@@ -899,7 +899,7 @@ address {
   color: white;
   font-weight: bold;
   background: #3458ba;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5274cf), color-stop(100%, #3458ba));
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5274), color-stop(100%, #3458ba));
   background-image: -webkit-linear-gradient(#5274cf, #3458ba);
   background-image: -moz-linear-gradient(#5274cf, #3458ba);
   background-image: -o-linear-gradient(#5274cf, #3458ba);
