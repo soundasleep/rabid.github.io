@@ -26,7 +26,7 @@ layout: default
 <div class="other-posts">
   {% if page.previous %}
     <a href="{{page.previous.url}}">
-      <img src="/assets/back.png" class="other-post-image">
+      &laquo;
       {{ page.previous.title }}
     </a>
     {% if page.next %}
@@ -36,7 +36,7 @@ layout: default
   {% if page.next %}
     <a href="{{page.next.url}}">
       {{ page.next.title }}
-      <img src="/assets/forward.png" class="other-post-image">
+      &raquo;
     </a>
   {% endif %}
 </div>
