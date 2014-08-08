@@ -12,7 +12,7 @@ title: Rabid Brains
         {% assign author = site.authors[post.author] %}
         <img src="{{ author.image | prepend:'/assets/profiles/' }}" class="profile-image">
         <p>
-          <span class="author">{{ author.name }}</span>
+          <a href="/authors/{{post.author}}.html"><span class="author">{{ author.name }}</span></a>
         </p>
       {% endif %}
       <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>

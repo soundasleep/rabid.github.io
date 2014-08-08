@@ -11,7 +11,7 @@ layout: default
       {% assign author = site.authors[page.author] %}
       <img src="{{ author.image | prepend:'/assets/profiles/' }}" class="profile-image">
       <p>
-        <span class="author">{{ author.name }}</span>
+        <a href="/authors/{{page.author}}.html"><span class="author">{{ author.name }}</span></a>
       </p>
     {% endif %}
     <p class="date">{{ page.date | date: "%-d %B %Y" }}</p>
