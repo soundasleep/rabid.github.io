@@ -2,11 +2,29 @@
 layout: default
 ---
 {% assign author = site.authors[page.author] %}
-Posts by {{ author.name }}
-<ul>
-{% for p in site.posts do %}
-  {% if p.author == page.author %}
-    <li><a href="{{ p.url }}">{{ p.title }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+
+<div class="g-row">
+  <div class="g-1of6 g-all-space">
+  </div>
+  <div class="g-1of3 g-all-space">
+    <h2>{{ author.name }}</h2>
+    <img src="/assets/profiles/{{ author.image }}" class="profile-photo">
+    <p>{{ author.first_para }}</p>
+    <p>{{ author.second_para }}</p>
+  </div>
+  <div class="g-1of3 g-all-space">
+    <h2>Posts by {{ author.name }}</h2>
+    <ul>
+    {% assign has_written = false %}
+    {% for p in site.posts do %}
+      {% if p.author == page.author %}
+        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+        {% assign has_written = true %}
+      {% endif %}
+    {% endfor %}
+    {% if has_written == false %}
+      <p>{{author.name}} hasn't written any posts yet.</p>
+    {% endif %}
+    </ul>
+  </div>
+</div>

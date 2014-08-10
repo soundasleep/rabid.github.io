@@ -1,4 +1,6 @@
 name: Rabid Brains
+description: Thoughts from the brains of Rabid, a New Zealand technology company that makes things great for people.
+url: http://brains.rabid.com
 subtitle: The Rabid Blog
 markdown: redcarpet
 pygments: true
@@ -8,50 +10,76 @@ authors:
     name: "Josh Forde"
     image: "josh-sq.jpg"
     twitter: "joshforde"
+    first_para: "Josh manages relationships throughout Rabid and develops new business leads. A director of Rabid, Josh advises start-ups and commercial clients on their strategy and direction. As Chair of Enspiral Foundation and one of the first members of the network, he’s seen many audacious projects and brings that wide experience to projects at Rabid."
+    second_para: "With interests including online entrepreneurship, social enterprise and product development, Josh cares about the impact work has on clients and understands that successful projects involve hard work and clear communication."
   breccan:
     name: "Breccan McLeod-Lundy"
     image: "breccan-sq.jpg"
     twitter: "breccan"
+    first_para: "Breccan’s role at Rabid ranges from project management and technical leadership through to start-up governance and product strategy. A Director of Rabid and PledgeMe, he has been leading agile teams that have consistently delivered successful projects for many years."
+    second_para: "He organised the first RailsCamp in New Zealand, has spoken at a number of events, coached at Railsgirls, and volunteered on GRIT learning in Cambodia."
   megan:
     name: "Megan Bowra-Dean"
     image: "megan-sq.jpg"
     twitter: "megahbite"
+  first_para: "Megan has been working in the software industry for over 5 years with experience in desktop, embedded, web and even games development. She's a passionate advocate for diversity in technology and human rights."
+  second_para: "Megan helps support several community projects mostly from behind the scenes including Rails Girls, several tech meetups and LGBT groups."
   sandra:
     name: "Sandra Clark"
     image: "sandra-sq.jpg"
+    first_para: "Sandra is an experienced Project Manager who is passionate about people, projects and clients. She has a background in film and television and has recently made the transition to technology and is embracing the Agile environment."
+    second_para: "She has a strong interest in sustainability, lives in the Wairarapa and believes she has attained a perfect work life balance as a result."
   pepper:
     name: "Pepper Curry"
     image: "pepper-sq.jpg"
     twitter: "sempercapsicum"
+    first_para: "Pepper is a graphic designer with a lifelong focus on illustration and beautiful interactions. She comes from a background in cartooning, paper sculpture, installation art, and print design, but has made the transition to full-time digital design over the past 4 years. Her ultimate goal in designing for web is creating minimal flows that the user loves to engage with. "
+    second_para: "She's passionate about empowering women to succeed in technology, and also helped found Wellington Wunderbikes, the free bike-share programme. Pepper is an avid mountain biker, knitter, and doodler who enjoys collecting vinyl and the not-so-occasional craft beer." 
   jonas:
     name: "Jonas Hermsmeier"
     image: "jonas-sq.jpg"
     twitter: "jhermsmeier"
+    first_para: "Jonas is a genuine technology enthusiast; he is consistently experimenting with the capabilities of software. Rabid snapped him up after hearing him deliver a stunning talk exploring the limits of Javascript at Wellington JS. "
+    second_para: "When not in the Rabid office working his magic or exploring open source projects, he is out discovering Wellington’s growing craft beer industry."
   eoin:
     name: "Eoin Kelly"
     image: "eoin-sq.jpg"
     twitter: "eoinkelly"
+    first_para: "Eoin joined Rabid in 2012, after immigrating to New Zealand from Ireland. With over 10 years experience in web technology under his belt, Eoin is committed to working within an agile framework. He is precise, technically focussed and enjoys making things work perfectly. "
+    second_para: "Eoin is an active participant in the Wellington technology community, recently giving talks on topics such as Structured CSS and DCI for Rubyists to groups such as the Wellington Ruby, Javascript and Design Professional meetups. He has been a mentor at RailsGirls as well as organising the Wellington Ember.js meetup, and volunteers on GRIT Learning (a social enterprise using E-Learning in low-economic schools in Cambodia)."
   rose:
     name: "Rose Lu"
     image: "rose-sq.jpg"
     twitter: "plainricedinner"
+    first_para: "Rose graduated from the University of Canterbury with a Bachelor of Mechatronics Engineering. She started with Rabid in early 2014, and gets excited about a lot of things. She is particularly curious about the intersection of technology and people. "
+    second_para: "She came to Rabid from a background in embedded software engineering, and is passionate about working on meaningful projects. Rose feels most at home on her bicycle and in her spare time volunteers for Youthline Wellington and is an organiser for Zinefest Wellington."
   merrin:
     name: "Merrin Macleod"
     image: "merrin-sq.jpg"
     twitter: "merxplat"
+    first_para: "Merrin was the first designer to join the Rabid team in 2012, bringing a focus on user experience, matching form and function, and thoughtful writing. She advocates coding as a tool to design and prototype experiences. "
+    second_para: "She co-founded the Wellington chapter of Rails Girls and has spoken at Geek Girl Dinners, the Summer of Tech Xero Seminar Series, and on the Do Podcast. Merrin is also the secretary of Ruby New Zealand and has interests in open government, public knowledge and digital politics, having founded the Adopt an MP campaign at NetHui in 2013 and helped out with the AskAway project. "
   josh:
     name: "Josh McArthur"
     image: "josh-mc-sq.jpg"
     twitter: "sudojosh"
+    first_para: "Josh feels lucky to be involved in an industry going through constant change and learning, where he may apply his enthusiasm for all things web. He has many years of experience in the software industry, employing agile project management & development techniques to solve complex problems for both small and large organizations. "
+    second_para: "When he's not coding, Josh enjoys exploring New Zealand - the more remote the better!"
   rob:
     name: "Rob Ramsay"
     image: "rob-sq.jpg"
     twitter: "robramsaynz"
+    first_para: "Rob joined the Rabid team after working at a Christchurch based Augmented Reality lab. His career in tech began when he discovered a love of writing software and controlling Linux during his Engineering studies. Having previously designed electronics and developed desktop and embedded software, Rob switched to web development for its challenging and creative environment. "
+    second_para: "A DJ, music nerd, and conspiratorial creative, Rob has interests in Software Architecture, Agile, Design, and Dev-Ops. He is a regular at Wellington tech-meet-ups, and helps out with the Rails Girls and Ruby's Tea Party groups."
   brenda:
     name: "Brenda Wallace"
     image: "brenda-sq.jpg"
     twitter: "br3nda"
+    first_para: "Brenda is a long time open source contributor, recently escaped from a programming job deep within Weta Digital, and very happy to join the good people at Rabid. Brenda has 20 years experience in programming and has worked on mobile telecommunications systems, embedded software, massively parallel processing, web, distributed data, and \"smartphone\" platforms."
+    second_para: "Brenda also enjoys cycle camping, and making good coffee in the middle of rainforest mountains."
   jevon:
     name: "Jevon Wright"
     image: "jevon-sq.jpg"
     twitter: "soundasleep"
+    first_para: "Jevon has over a decade of software and web development experience, and a PhD in computer science (specialising in web engineering). She enjoys understanding clients' needs & ethically resolving challenges within the wider context of society and culture. "
+    second_para: "Outside of client commitments, Jevon is a Rails Girls volunteer, LGBT group facilitator, passionate open source contributor, and is building a cryptocurrencies project."

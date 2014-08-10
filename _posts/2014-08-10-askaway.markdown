@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "AskAway"
+subtitle: "Democracy and the internet"
+date:   2014-08-10 12:00:58
+author: merrin
+---
+
+Last Friday I attended the launch of AskAway and On The Fence as part of Massey University's Design + Democracy labs. Various Rabidiers and our officemates from Enspiral and Loomio have been involved with Meg Howie's project AskAway since it was in its infancy in her final year design project last year, and Meg also helped us out with the Christchurch Journey Planner, so we're excited to see it launch. This year's incarnation has been primarily developed by the joyous and silken-haired Loomian Jon Lemmon with help from civic-minded hackers from [Code for New Zealand](http://www.codefor.org.nz), including Rowan Crawford and Cameron Prebble, and various others who've popped in for free pizza on a hack night.
+
+Meg and I had a talk about improving dialogue between the public and politicians in July last year. She got in touch after Aurynn, Megan and I spontaneously created Adopt an MP on the last day of NetHui with the goal of getting people to educate MPs about how technology and the internet works. I won't link to it here because, although it was an impressive effort for a day, we never really got to getting it up to its full potential, or updating the lists of MPs, which had to be done manually. It turns out that Parliamentary data feeds are non existent, woefully insufficient, or incredibly painful to work with.
+
+An MP's job is to represent their constituency, and as such a core part of it involves seeking input and talking to constituents. The Parliamentary process allows for public participation, and sometimes gets thousands of submissions on bills. They do try to be accessible to their constituents. But MPs are busy people and the parliamentary process can be confusing, alienating, and inaccessible to many. So the relatively few people with the knowledge and means to interact efficiently with this process end up being over represented. People often have a poor understanding of their rights and the limits of MPs' power. 
+
+I'm really pleased with Meg's work with AskAway. It's important with these platforms to get buy-in from both sides of the discussion: the parties and representatives, and constituents. I believe they've had representatives from	 every parliamentary party sign up, and it's getting a steady stream of questions and votes. The codebase of AskAway is entirely open source on [GitHub](https://github.com/askaway/askaway/) so could also be forked for elections elsewhere. I'd love to see the platform being adapted for usage between elections as well. 
+
+There are also other websites, including Adopt an MP and They Work For You, that are sadly lying dormant because of the amount of manual processing it takes to use publicly accessible data such as Hansard and up-to-date lists of MPs with their portfolios and responsibilities. With a few more machine readable data feeds from the office of the Clerk and Parliamentary Service, we could keep these services useful and up to date throughout the term with a more sustainable level of volunteer labour. This could significantly improve peoples' understanding of and participation in the political process in New Zealand.
