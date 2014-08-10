@@ -7,18 +7,20 @@ layout: default
   <div class="g-1of6 g-all-space">
   </div>
   <div class="g-1of3 g-all-space">
-    <h2>{{ author.name }}</h2>
+    <h2>More about {{ author.name }}</h2>
     <img src="/assets/profiles/{{ author.image }}" class="profile-photo">
     <p>{{ author.first_para }}</p>
     <p>{{ author.second_para }}</p>
   </div>
   <div class="g-1of3 g-all-space">
     <h2>Posts by {{ author.name }}</h2>
-    <ul>
     {% assign has_written = false %}
     {% for p in site.posts do %}
       {% if p.author == page.author %}
-        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+        <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
+        <p class="subtitle">{{ p.subtitle }}</p>
+        <p>{{ p.content | strip_html | truncatewords: 75 }}</p>
+        <p class="readmore"><a href="{{p.url}}">Read more</a></p>
         {% assign has_written = true %}
       {% endif %}
     {% endfor %}
