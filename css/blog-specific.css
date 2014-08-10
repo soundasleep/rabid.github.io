@@ -5,8 +5,18 @@
   margin-top: 0;
 }
 
+.post {
+  margin-bottom: 1em;
+}
+
 .title {
   text-align: center;
+}
+
+.read-more {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 1em;
 }
 
 .profile-image {
