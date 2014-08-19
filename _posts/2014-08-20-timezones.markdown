@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Datetime timezones in Python"
-date:   2014-08-22 12:00:58
+date:   2014-08-20 12:00:58
 author: brenda
 ---
 
