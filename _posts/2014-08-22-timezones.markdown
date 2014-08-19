@@ -13,6 +13,7 @@ Timezones in Python are a thing.
 
 A quirk of pytz, lead to learning something interesting about New Zealand.
 
+<code>
 In [2]: import pytz; pytz.timezone("Pacific/Auckland")
 Out[2]: <DstTzInfo 'Pacific/Auckland' NZMT+11:30:00 STD>
 
@@ -20,6 +21,7 @@ In [3]: import datetime; datetime.datetime(2011, 06, 12, 12, 54, 23,
 00, pytz.timezone('Pacific/Auckland')).strftime('%Y-%m-%d %H:%M:%S %Z
 %z')
 Out[3]: '2011-06-12 12:54:23 NZMT+1130'
+</code>
 
 What's that? Our timetime is Auckland, with an offset of 11:30??
 
