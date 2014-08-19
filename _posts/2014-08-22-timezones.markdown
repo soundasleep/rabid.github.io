@@ -17,7 +17,7 @@ A quirk of pytz, lead to learning something interesting about New Zealand.
     In [3]: import datetime; datetime.datetime(2011, 06, 12, 12, 54, 23, 00, pytz.timezone('Pacific/Auckland')).strftime('%Y-%m-%d %H:%M:%S %Z%z')
     Out[3]: '2011-06-12 12:54:23 NZMT+1130'
 
-What's that? Our timetime is Auckland, with an offset of 11:30??
+What's that? Our timezone is Auckland, with an offset of 11:30??
 
 <!--break-->
 
