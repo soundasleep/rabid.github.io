@@ -13,12 +13,12 @@ Timezones in Python are a thing.
 
 A quirk of pytz, lead to learning something interesting about New Zealand.
 
-  In [2]: import pytz; pytz.timezone("Pacific/Auckland")
-  Out[2]: <DstTzInfo 'Pacific/Auckland' NZMT+11:30:00 STD>
+
+In [2]: import pytz; pytz.timezone("Pacific/Auckland")
+Out[2]: <DstTzInfo 'Pacific/Auckland' NZMT+11:30:00 STD>
 
 In [3]: import datetime; datetime.datetime(2011, 06, 12, 12, 54, 23,
-00, pytz.timezone('Pacific/Auckland')).strftime('%Y-%m-%d %H:%M:%S %Z
-%z')
+00, pytz.timezone('Pacific/Auckland')).strftime('%Y-%m-%d %H:%M:%S %Z%z')
 Out[3]: '2011-06-12 12:54:23 NZMT+1130'
 </code>
 
@@ -28,8 +28,7 @@ That's because New Zealand hasn't always been in UTC+12  (or +13 in summer). We 
 
 <a href="http://www.teara.govt.nz/en/timekeeping/page-2">There's lots of intesting details over at Te Ara</a>
 
-In [4]: datetime.datetime(2011, 06, 12, 12, 54, 23, 00,
-pytz.timezone('NZ')).strftime('%Y-%m-%d %H:%M:%S %Z%z')
+In [4]: datetime.datetime(2011, 06, 12, 12, 54, 23, 00, pytz.timezone('NZ')).strftime('%Y-%m-%d %H:%M:%S %Z%z')
 Out[4]: '2011-06-12 12:54:23 NZMT+1130'
 
 likewise for any other country, it uses the oldest timezone info it
