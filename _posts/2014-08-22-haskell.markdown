@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Unnecessary Strangeness"
+subtitle: "How to read Haskell as a developer"
+date:   2014-08-22 12:00:58
+author: eoin
+---
+
+TL;DR Haskell has some odd whitespace rules that make it look really weird to anybody who uses other langs. There is an explicit syntax involving the usual C style `{,},;` stuff but it is considered less elegant so haskellers don't use it. I'm going to explain all that and how to parse the whitespace syntax with your brain
+
+<!--break-->
+
+This is the content after the break
