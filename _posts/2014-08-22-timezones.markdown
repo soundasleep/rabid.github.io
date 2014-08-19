@@ -54,4 +54,7 @@ or something pre Tiriti O Waitangi:
     In [53]: pytz.timezone('Pacific/Auckland').localize(datetime(1829, 02, 06, 12, 54, 23, 00))
     Out[53]: datetime.datetime(1829, 2, 6, 12, 54, 23, tzinfo=<DstTzInfo 'Pacific/Auckland' NZMT+11:30:00 STD>)
 
+To be clear, this isn't a bug -- this is me not reading the manual and making assumptions about calls -- but if I hadn't I would never have learned this trivia.
+
+Enjoy.
 
