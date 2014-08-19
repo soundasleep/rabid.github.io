@@ -11,7 +11,7 @@ Timezones in Python are a thing.
 <!--break-->
 
 
-A quirk of pytz, lead to something interesting about New Zealand.
+A quirk of pytz, lead to learning something interesting about New Zealand.
 
 In [2]: import pytz; pytz.timezone("Pacific/Auckland")
 Out[2]: <DstTzInfo 'Pacific/Auckland' NZMT+11:30:00 STD>
