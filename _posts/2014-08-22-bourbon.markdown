@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Bourbon"
+subtitle: "Switching from Bootstrap"
+date:   2014-08-22 12:00:58
+author: megan
+---
+
+Bourbon is great!
+
+<!--break-->
+
+Bootstrap is terrible!
