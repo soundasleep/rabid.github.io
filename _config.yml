@@ -22,8 +22,8 @@ authors:
     name: "Megan Bowra-Dean"
     image: "megan-sq.jpg"
     twitter: "megahbite"
-  first_para: "Megan has been working in the software industry for over 5 years with experience in desktop, embedded, web and even games development. She's a passionate advocate for diversity in technology and human rights."
-  second_para: "Megan helps support several community projects mostly from behind the scenes including Rails Girls, several tech meetups and LGBT groups."
+    first_para: "Megan has been working in the software industry for over 5 years with experience in desktop, embedded, web and even games development. She's a passionate advocate for diversity in technology and human rights."
+    second_para: "Megan helps support several community projects mostly from behind the scenes including Rails Girls, several tech meetups and LGBT groups."
   sandra:
     name: "Sandra Clark"
     image: "sandra-sq.jpg"
