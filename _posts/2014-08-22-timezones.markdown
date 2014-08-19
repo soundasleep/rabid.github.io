@@ -6,9 +6,6 @@ date:   2014-08-22 12:00:58
 author: brenda
 ---
 
-Timezones in Python are a thing. 
-
-<!--break-->
 
 
 A quirk of pytz, lead to learning something interesting about New Zealand.
@@ -21,6 +18,9 @@ A quirk of pytz, lead to learning something interesting about New Zealand.
     Out[3]: '2011-06-12 12:54:23 NZMT+1130'
 
 What's that? Our timetime is Auckland, with an offset of 11:30??
+
+<!--break-->
+
 
 That's because New Zealand hasn't always been in UTC+12  (or +13 in summer). We used to synchronise our clocks to the sun, 12pm noon being when the sun was over head -- but the advent of the telegraph lead to a country wide standardisation of time -- the winner was Christchurch, it being near the centre of NZ in longitude. Christchurch is 11 1/2 hours ahead of GMT, thus we standardised on GMT+11:30.
 
